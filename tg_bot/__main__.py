@@ -145,7 +145,6 @@ def start(bot: Bot, update: Update, args: List[str]):
 
                 parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup(
                     [[InlineKeyboardButton(text="👨‍💼 Master", url="t.me/MRK_YT"),  InlineKeyboardButton(text="Help 🤔", url="https://t.me/{}?start=help".format(bot.username))],
-                     [InlineKeyboardButton(text="🖥️ Tutorial Video🖥️", url="https://youtu.be/wKL90i3cjPw")],
                      [InlineKeyboardButton(text="👥 Any Doubt", url="t.me/Mo_Tech_Group"), InlineKeyboardButton(text="MT Updates🤖", url="t.me/Mo_Tech_YT") ]]))
                      
     else:
