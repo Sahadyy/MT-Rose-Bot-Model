@@ -144,8 +144,8 @@ def start(bot: Bot, update: Update, args: List[str]):
                 PM_START_TEXT.format(escape_markdown(first_name), escape_markdown(bot.first_name), OWNER_ID),
 
                 parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup(
-                    [[InlineKeyboardButton(text="👨‍💼 Master", url="t.me/MRK_YT"),  InlineKeyboardButton(text="Help 🤔", url="https://t.me/{}?start=help".format(bot.username))],
-                     [InlineKeyboardButton(text="👥 Any Doubt", url="t.me/Mo_Tech_Group"), InlineKeyboardButton(text="MT Updates🤖", url="t.me/Mo_Tech_YT") ]]))
+                    [[InlineKeyboardButton(text="👨‍💼 𝚌𝚛𝚎𝚊𝚝𝚘𝚛", url="t.me/MRK_YT"),  InlineKeyboardButton(text="Help 🤔", url="https://t.me/{}?start=help".format(bot.username))],
+                     [InlineKeyboardButton(text="🎬 𝚌𝚑𝚊𝚗𝚗𝚎𝚕", url="t.me/Mo_Tech_Group"), InlineKeyboardButton(text="𝚐𝚛𝚘𝚞𝚙", url="t.me/Mo_Tech_YT") ]]))
                      
     else:
         update.effective_message.reply_text("ചത്തിട്ടില്ലാ...")
