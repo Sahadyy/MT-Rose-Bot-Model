@@ -23,6 +23,7 @@ PM_START_TEXT = """
 ɪ'ᴍ ʜᴇʀᴇ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘꜱ! ʜɪ /Help
 
 ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ <b><a href="https://t.me/no_ones_like_me">𝚃𝚑𝚒𝚜 𝚙𝚎𝚛𝚜𝚘𝚗</a></b></b>
+
 """
 
 HELP_STRINGS = """
